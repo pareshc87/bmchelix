@@ -1,0 +1,7 @@
+name: Output project configuration
+on: [workflow_dispatch, push]
+jobs:
+    Output_setup_ini:
+        runs-on: ubuntu-latest
+        steps:
+            - run: ls
